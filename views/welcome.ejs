@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Deck Presenter</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+
+    <script src="https://global.oktacdn.com/okta-signin-widget/3.6.1/js/okta-sign-in.min.js" type="text/javascript"></script>
+    <link href="https://global.oktacdn.com/okta-signin-widget/3.6.1/css/okta-sign-in.min.css" type="text/css" rel="stylesheet"/>
+    
+    <script src="https://webrtc.github.io/adapter/adapter-4.2.2.js"></script>
+    <script src="auth.js"></script>
+    <script src="video.js"></script>
+    <script src="server.js"></script>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Deck Presenter</h1>
+      <div id = roomInfo>Share slides over video chat! Log in to be directed to your custom chat room.</div>
+    </div>
+    <div class="container">
+      
+      <div id="okta-login-container"></div>
+
+    </div>
+
+    <footer class="footer">
+      Created by <a href="mailto:robertwachen@college.harvard.edu">Robert Wachen</a>. Enjoy!
+    </footer>
+
+    <script>
+      handleLogin();
+    </script>
+
+  </body>
+</html>

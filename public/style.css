@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  min-height: 100%;
+  width: 100%;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+body .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 0px;
+  margin-right: 0px;
+  min-height: 546px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #333;
+  color: #fff;
+  height: 64px;
+}
+
+.footer a {
+  color: lightblue
+}
+
+.footer a:hover {
+  color: white
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #155ed4;
+  color: white;
+  height: 80;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.header h1 {
+  font-size: 40px;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+html {
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  height: 68px;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, 
+make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width:100%;
+  }
+}
+
+.navbar a.right {
+  float: right;
+} 
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.navbutton {
+  background-color: #333; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  position: absolute;
+  right: 0;
+  top: 7px;
+  margin-right: 7px; 
+} 
+
+.navbutton:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.container #okta-sign-in {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  min-height: 586px;
+}
+
+#okta-sign-in .auth-content {
+  padding-bottom: 0px !important;
+}
+
+#okta-sign-in .auth-content .registration-container .content-container {
+  padding-top: 29px;
+  padding-bottom: 29px;
+}
+
+#okta-sign-in .registration .o-form-button-bar {
+  padding-bottom: 10px;
+}
+
+#okta-sign-in .registration .auth-footer {
+  padding-top: 3.8px;
+  padding-bottom: 13.8px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, 
+make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.slides {
+  flex: 50%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.videos {
+  flex: 50%;
+  background-color: white;
+  padding: 20px;
+}
+
+#video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 300px);
+  grid-auto-rows: repeat(auto-fit, 300px);
+}
