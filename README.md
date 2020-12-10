@@ -5,7 +5,8 @@ Deck Presenter allows users to host custom video chat meeting rooms for free and
 Deck Presenter was created out of frustration during mutli-person presentations using conventional video-chatting applications, where one presenter would share their screen with the slide deck, leaving the other presenters unable to read speaker notes and see previous and upcoming slides.
 
 ## Demonstration
-<!-- INCLUDE VIDEO -->
+[![](http://img.youtube.com/vi/jQhLaemeP-A/0.jpg)](http://www.youtube.com/watch?v=jQhLaemeP-A "")
+[Click here to view the demonstration video](https://www.youtube.com/watch?v=jQhLaemeP-A)
 
 ## Usage
 <b>To run Deck Presenter locally, please follow these steps:</b>
@@ -31,4 +32,4 @@ If you are receiving CORS errors, this means that you may have to create your ow
 ## Like Deck Presenter?
 Feel free to express appreciation and motivate similar future projects [here.](https://paypal.me/robertwachen)
 
-© [Robert Wachen]()
+© [Robert Wachen](https://github.com/robertwachen/)
