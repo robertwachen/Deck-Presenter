@@ -6,6 +6,7 @@ Deck Presenter was created out of frustration during mutli-person presentations 
 
 ## Demonstration
 [![](http://img.youtube.com/vi/jQhLaemeP-A/0.jpg)](http://www.youtube.com/watch?v=jQhLaemeP-A "")
+
 [Click here to view the demonstration video](https://www.youtube.com/watch?v=jQhLaemeP-A)
 
 ## Usage

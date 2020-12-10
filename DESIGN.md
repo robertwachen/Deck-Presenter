@@ -23,7 +23,7 @@ Node server and PeerJS server are now ready.
 - room.ejs calls script.js and connects to PeerServer
 - server.js and script.js connect via socket.io
 - User is now connected to room and their video is displayed
-- - User can share their unique meeting room to other users
+- User can share their unique meeting room to other users
 
 <b>After another user joins the room:</b>
 server.js and script.js establish connections
